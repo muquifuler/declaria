@@ -1,0 +1,17 @@
+{
+  "name": "declaria",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/modules.mjs setup",
+    "dev": "node scripts/modules.mjs dev",
+    "test": "node scripts/modules.mjs test",
+    "build": "node scripts/modules.mjs build",
+    "dev:web": "node scripts/modules.mjs dev spa",
+    "dev:server": "node scripts/modules.mjs dev node_api"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
